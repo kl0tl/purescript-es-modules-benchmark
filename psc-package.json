@@ -1,0 +1,10 @@
+{
+  "name": "purescript-es-modules-benchmark",
+  "set": "psc-0.13.6-20200127",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "console",
+    "effect",
+    "prelude"
+  ]
+}

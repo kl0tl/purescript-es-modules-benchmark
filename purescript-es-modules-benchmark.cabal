@@ -1,0 +1,7 @@
+name: purescript-es-modules-benchmark
+version: 1.0.0
+build-type: Simple
+cabal-version: >= 1.2
+
+library
+  build-depends: purescript, zephyr
