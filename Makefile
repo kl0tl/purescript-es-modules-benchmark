@@ -27,9 +27,14 @@ esm-output: stack-local-bins
 		'src/**/*.purs'
 
 .PHONY: purs-bundles
-purs-bundles: output
-	mkdir -p dist && purs bundle output/*/{foreign,index}.js --module Main | \
+purs-bundles: output esm-output
+	mkdir -p dist
+
+	purs bundle output/*/{foreign,index}.js --module Main | \
 		tee dist/purs-bundle.js | terser > dist/purs-bundle.min.js
+
+	stack exec purs -- bundle esm-output/*/{foreign,index}.js --module Main | \
+		tee dist/purs-esm-bundle.js | terser > dist/purs-esm-bundle.min.js
 
 .PHONY: webpack4-bundles
 webpack4-bundles: dce-output esm-output

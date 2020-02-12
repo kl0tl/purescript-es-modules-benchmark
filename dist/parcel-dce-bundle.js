@@ -9,9 +9,7 @@ var $CEFT$export$log = function (s) {
   };
 };
 
-;
 var $Focm$export$main = $CEFT$export$log("Hello world");
-;
 $Focm$exports.main = $Focm$export$main;
 
 if (typeof exports === "object" && typeof module !== "undefined") {

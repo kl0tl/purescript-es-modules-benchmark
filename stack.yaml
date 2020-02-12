@@ -3,7 +3,7 @@ extra-deps:
   - git: git@github.com:coot/zephyr.git
     commit: 1f958fd512097038397eb99cef2c7705b6b5b2e4
   - git: git@github.com:kl0tl/purescript.git
-    commit: 9f11cfc0efe508978bddccb770dedf2715a71c31
+    commit: 5542a7db66b77111446201cbd3ae439512c3bb51
   - happy-1.19.9
   - language-javascript-0.7.0.0
   - network-3.0.1.1
