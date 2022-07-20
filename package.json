@@ -6,6 +6,6 @@
     "purescript": "^0.13.6",
     "rollup": "^1.31.0",
     "rollup-plugin-terser": "^5.2.0",
-    "terser": "^4.6.3"
+    "terser": "^4.8.1"
   }
 }
