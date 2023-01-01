@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "psc-package": "^4.0.1",
     "purescript": "^0.13.6",
     "rollup": "^1.31.0",
